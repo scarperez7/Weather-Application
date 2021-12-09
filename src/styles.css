@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(219, 219, 218);
+}
+h1 {
+  color: rgb(122, 159, 192);
+}
+header {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+.border {
+  color: blue;
+}
+.link {
+  font-size: 12px;
+}
+
+.midsection {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  border: thin solid lightgray;
+  width: 40%;
+  font-family: "DM Sans", sans-serif;
+}
+.current {
+  color: rgb(122, 159, 192);
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.midsection:hover {
+  font-size: 20px;
+  border: solid 2px rgb(77, 167, 240);
+}
+.currenticon {
+  color: rgb(61, 61, 196);
+}
+.forecast {
+  text-align: center;
+  font-weight: 300;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+}
+.col-2 {
+  border: solid 1px lightgray;
+  text-align: center;
+  background-color: rgba(209, 217, 236, 0.705);
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
+.col-2:hover {
+  background-color: gray;
+  font-size: 20px;
+  color: white;
+  border: solid 1px rgb(206, 207, 253);
+}
+h3 {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+h4 {
+  font-family: "Open Sans", sans-serif;
+  display: block;
+}
+.mon {
+  color: mediumblue;
+}
+.tuesday {
+  color: rgb(211, 174, 8);
+}
+.wed {
+  color: rgba(135, 145, 45, 0.685);
+}
+.thurs {
+  color: rgb(80, 78, 78);
+}
+.fri {
+  color: navy;
+  font-size: 18px;
+}
