@@ -1,4 +1,4 @@
-//Date
+//Date and Time
 
 let date = document.querySelector("div.current-date");
 let weekdays = [
@@ -24,9 +24,12 @@ function showTemperature(response) {
   let cityName = response.data.name;
   let h1 = document.querySelector("h1");
   let currentTemp = document.querySelector("#number");
+  let weatherDsp = document.querySelector("#currentWeather");
+  let tempDescription = response.data.weather[0].description;
 
   h1.innerHTML = `${cityName}`;
   currentTemp.innerHTML = `${temp}`;
+  weatherDsp.innerHTML = `${tempDescription}`;
 }
 
 function locateCity(place) {
